@@ -37,7 +37,7 @@ func GenerateRelease() (string, error) {
 			"git checkout -b custom-branch",
 			"bosh create-release --final --version=3.0.1",
 			"git add . && git commit -m 'v3.0.1'",
-			"git checkout master",
+			"git checkout main",
 		},
 	)
 

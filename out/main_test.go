@@ -87,7 +87,7 @@ var _ = Describe("Main", func() {
 			result := runCLI(fmt.Sprintf(`{
 		"source": {
 			"uri": "%s",
-			"branch": "master",
+			"branch": "main",
 			"private_config": {
 				"test": "private-config"
 			}
