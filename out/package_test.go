@@ -8,13 +8,13 @@ import (
 
 	"testing"
 
-	pkgtesting "github.com/dpb587/bosh-release-resource/internal/testing"
 	"github.com/onsi/gomega/gexec"
+	pkgtesting "github.com/taylorsilva/bosh-release-resource/internal/testing"
 )
 
 func Test(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "github.com/dpb587/bosh-release-resource/out")
+	RunSpecs(t, "github.com/taylorsilva/bosh-release-resource/out")
 }
 
 var cli string
@@ -23,7 +23,7 @@ var releasedir string
 var _ = BeforeSuite(func() {
 	var err error
 
-	cli, err = gexec.Build("github.com/dpb587/bosh-release-resource/out")
+	cli, err = gexec.Build("github.com/taylorsilva/bosh-release-resource/out")
 	Expect(err).ShouldNot(HaveOccurred())
 })
 

@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver"
-	"github.com/dpb587/bosh-release-resource/api"
-	"github.com/dpb587/bosh-release-resource/boshrelease"
 	"github.com/pkg/errors"
+	"github.com/taylorsilva/bosh-release-resource/api"
+	"github.com/taylorsilva/bosh-release-resource/boshrelease"
 )
 
 func main() {

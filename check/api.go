@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dpb587/bosh-release-resource/api"
+	"github.com/taylorsilva/bosh-release-resource/api"
 )
 
 type Request struct {

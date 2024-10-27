@@ -32,7 +32,7 @@ var _ = Describe("Main", func() {
 	})
 
 	Context("real repositories", func() {
-		var openvpnRepository = "https://github.com/dpb587/openvpn-bosh-release.git"
+		var openvpnRepository = "https://github.com/taylorsilva/openvpn-bosh-release.git"
 
 		BeforeEach(func() {
 			if env := os.Getenv("TEST_OPENVPN_REPOSITORY"); env != "" {

@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dpb587/bosh-release-resource/api"
-	"github.com/dpb587/bosh-release-resource/boshrelease"
 	"github.com/pkg/errors"
+	"github.com/taylorsilva/bosh-release-resource/api"
+	"github.com/taylorsilva/bosh-release-resource/boshrelease"
 	yaml "gopkg.in/yaml.v2"
 )
 

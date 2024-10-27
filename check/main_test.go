@@ -12,8 +12,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/dpb587/bosh-release-resource/internal/testing"
 	"github.com/onsi/gomega/gexec"
+	"github.com/taylorsilva/bosh-release-resource/internal/testing"
 )
 
 var _ = Describe("Main", func() {

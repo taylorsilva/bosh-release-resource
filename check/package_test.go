@@ -11,7 +11,7 @@ import (
 
 func Test(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "github.com/dpb587/bosh-release-resource/check")
+	RunSpecs(t, "github.com/taylorsilva/bosh-release-resource/check")
 }
 
 var cli string
@@ -19,7 +19,7 @@ var cli string
 var _ = BeforeSuite(func() {
 	var err error
 
-	cli, err = gexec.Build("github.com/dpb587/bosh-release-resource/check")
+	cli, err = gexec.Build("github.com/taylorsilva/bosh-release-resource/check")
 	Expect(err).ShouldNot(HaveOccurred())
 })
 
